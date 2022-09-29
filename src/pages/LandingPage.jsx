@@ -21,7 +21,7 @@ export const LandingPage = () => {
       </Box>
 
       <Box>
-        <StudyPage id="study"/>
+        <StudyPage id="study"></StudyPage>
       </Box>
 
       <Box>
