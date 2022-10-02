@@ -6,6 +6,7 @@ export const ContactPage = () => {
   return (
     <Container
       sx={{
+        alignItems: "center",
         flexGrow: 1,
         backgroundColor: "primary.main",
         paddingY: 12,
@@ -28,7 +29,8 @@ export const ContactPage = () => {
       </Typography>
       <Grid container>
         <Grid
-          sx={{ textAlign: { xs: "center", md: "right" } }}
+          sx={{ textAlign: { xs: "center", md: "right",
+          alignItems: "center",} }}
           item
           xs={12}
           md={6}
@@ -40,7 +42,7 @@ export const ContactPage = () => {
               backgroundColor: "white",
               color: "blue",
             }}
-            size="large"
+            size="small"
             variant="contained"
             startIcon={<GitHub />}
             href="https://github.com/SantiagoRicardo"
@@ -57,7 +59,7 @@ export const ContactPage = () => {
                 "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
               color: "blue",
             }}
-            size="large"
+            size="small"
             variant="contained"
             startIcon={<Instagram />}
             href="https://www.instagram.com/santiago_ricardo5/"
@@ -73,7 +75,7 @@ export const ContactPage = () => {
               backgroundColor: "#1DA1F2",
               color: "blue",
             }}
-            size="large"
+            size="small"
             variant="contained"
             startIcon={<Twitter />}
             href="https://twitter.com/SantiagoGeek"
@@ -89,7 +91,7 @@ export const ContactPage = () => {
               backgroundColor: "#128C7E",
               color: "blue",
             }}
-            size="large"
+            size="small"
             variant="contained"
             startIcon={<WhatsApp />}
             href="https://wa.me/573106651486?text=Hola Soy Santiago, Desarrollador Front - End Con React JS, y Desarrollador Flutter"

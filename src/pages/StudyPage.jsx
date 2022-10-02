@@ -44,7 +44,7 @@ export const StudyPage = () => {
                 fontFamily: "Calibri",
               }}
             >
-              Carrera Universitaria En Ingenieria De Software
+              Fundación Internacional Maria Luisa De Moreno Piraquive
             </Typography>
           </Paper>
 
@@ -58,14 +58,14 @@ export const StudyPage = () => {
                 marginBottom: 2,
               }}
             >
-              Desarrollador Front - End Con React JS
+              Ingeniería De Software (Cuarto Semestre)
             </Typography>
             <Typography
               sx={{
                 fontFamily: "Calibri",
               }}
             >
-              Carrera Universitaria En Ingenieria De Software
+              Corporación Universitaria Iberoamericana
             </Typography>
           </Paper>
 
@@ -79,14 +79,14 @@ export const StudyPage = () => {
                 marginBottom: 2,
               }}
             >
-              Desarrollador Front - End Con React JS
+              Programacion En PHP
             </Typography>
             <Typography
               sx={{
                 fontFamily: "Calibri",
               }}
             >
-              Carrera Universitaria En Ingenieria De Software
+              Politecnico Gran Colombiano
             </Typography>
           </Paper>
         </Grid>
@@ -102,35 +102,14 @@ export const StudyPage = () => {
                 marginBottom: 2,
               }}
             >
-              Desarrollador Front - End Con React JS
+              Flutter
             </Typography>
             <Typography
               sx={{
                 fontFamily: "Calibri",
               }}
             >
-              Carrera Universitaria En Ingenieria De Software
-            </Typography>
-          </Paper>
-
-          <Paper sx={{ margin: 4, padding: 4, borderRadius: 5 }} elevation={8}>
-            <Typography
-              variant="h1"
-              sx={{
-                fontFamily: "Calibri",
-                fontWeight: "bold",
-                fontSize: 22,
-                marginBottom: 2,
-              }}
-            >
-              Desarrollador Front - End Con React JS
-            </Typography>
-            <Typography
-              sx={{
-                fontFamily: "Calibri",
-              }}
-            >
-              Carrera Universitaria En Ingenieria De Software
+              Semillero Rank CV
             </Typography>
           </Paper>
 
@@ -144,14 +123,35 @@ export const StudyPage = () => {
                 marginBottom: 2,
               }}
             >
-              Desarrollador Front - End Con React JS
+              Riesgos En Ciberseguridad
             </Typography>
             <Typography
               sx={{
                 fontFamily: "Calibri",
               }}
             >
-              Carrera Universitaria En Ingenieria De Software
+              Universidad EAFIT
+            </Typography>
+          </Paper>
+
+          <Paper sx={{ margin: 4, padding: 4, borderRadius: 5 }} elevation={8}>
+            <Typography
+              variant="h1"
+              sx={{
+                fontFamily: "Calibri",
+                fontWeight: "bold",
+                fontSize: 22,
+                marginBottom: 2,
+              }}
+            >
+              Google Cloud
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Calibri",
+              }}
+            >
+              Google Cloud Computing Foundation
             </Typography>
           </Paper>
         </Grid>
